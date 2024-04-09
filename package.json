@@ -1,0 +1,31 @@
+{
+  "name": "pigment-css-nextjs-ts",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
+  },
+  "dependencies": {
+    "@pigment-css/react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@pigment-css/nextjs-plugin": "latest",
+    "@storybook/addon-controls": "8.1.0-alpha.6",
+    "@storybook/nextjs-server": "^0.0.4",
+    "@storybook/react": "8.1.0-alpha.6",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "storybook": "8.1.0-alpha.6",
+    "typescript": "latest"
+  }
+}
